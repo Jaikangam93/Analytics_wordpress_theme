@@ -1,0 +1,64 @@
+.form-submit-privacy p{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.form-header{
+    background-color:#2960A1;
+}
+
+.form-header span{
+   font-size: 17px;
+   font-weight: 600;
+}
+
+#call-to-action{
+    background-color: blue;
+    opacity: 50%;
+}
+/* url("/assets/images/background/action.jpg") */
+
+
+.header-background{
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.brand_color{
+   color: #2960A1;
+}
+
+.weight-500{
+    font-weight: 500;
+}
+.footer-logo img{
+    height: 40px;
+}
+
+
+ /* Start the Container Animation */
+.carousel-inner img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.testi span{
+  font-size: small;
+  font-weight: 600;
+  display: block;
+}
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+  
+.learning-outcome img{
+    width: 25px;
+}
+
+.bg-brand-color{
+    background-color:#2960A1;
+}
+.brand-second-color{
+    background-color:#8dc162;
+}
