@@ -1,4 +1,6 @@
-"use strict";
+
+(function($){
+
 $(document).ready(function() {
 
     // Collapse navigation
@@ -143,3 +145,6 @@ $(document).ready(function() {
         event.preventDefault();
     });
  });
+
+
+})(jQuery);

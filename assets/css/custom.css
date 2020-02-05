@@ -42,6 +42,9 @@
     width: 50px;
     border-radius: 50px;
 }
+.carousel-inner p{
+    font-size: 14px;
+}
 
 .testi span{
   font-size: small;

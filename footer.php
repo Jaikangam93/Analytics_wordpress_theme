@@ -12,7 +12,7 @@
         <div class="col-md-3 col-sm-3">
           <div class="footer-logo">
             <!-- Logo here <img alt="image" src="./assets/img/brand/white.png"> -->
-            <img alt="Chrmp Footer Logo" src="<?php echo get_template_directory_uri(); ?>./assets/img/brand/chrmp_original.png">
+            <img alt="Chrmp Footer Logo" src="<?php echo get_template_directory_uri();?>/assets/img/brand/chrmp_original.png">
           </div>
         </div>
         <!-- Close First Column -->
@@ -28,12 +28,13 @@
         <!-- Third Column -->
         <div class="col-md-3 col-sm-3">
           <div class="text-right">
-            <a target="_blank" href="" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+            <a target="_blank" href="https://twitter.com/rippleschrmp" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" >
               <i class="fa fa-twitter"></i>
             </a>
-            <a target="_blank" href="" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
+            <a target="_blank" href="https://www.facebook.com/chrmp/" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg">
               <i class="fa fa-facebook-square"></i>
             </a>
+            
           </div>
         </div>
         <!-- Close Third Column -->

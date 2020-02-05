@@ -3,7 +3,7 @@
 <main>
 
     <!-- Main here Section  -->
-    <section class="section section-lg section-shaped ">
+    <section class="section section-lg section-shaped " id="form" >
       
       <!-- Header Background Shape -->
       <div class="shape shape-style-1 shape-default ">
@@ -18,7 +18,7 @@
       </div> <!-- Close header background shape -->
 
       <div class="container">
-        <div class="row  justify-content-between align-items-center">
+        <div class="row  justify-content-between align-items-center" >
           
           <!-- Open col - 7 -->
           <div class="col-lg-7 mt--50">
@@ -35,7 +35,7 @@
                 </div> <!-- Close Form header  -->
                 
                 <div class="card-body px-lg-5 py-lg-5">
-                  <form>
+                  <form >
                     <!-- Open First name  -->
                     <div class="form-group mb-3">
                       <div class="input-group input-group-alternative">
@@ -143,25 +143,25 @@
 
                   <!-- Open Carousel Item  -->
                   <div class="carousel-inner">
-                    <div class="carousel-item active py-4 px-5">
+                    <div class="carousel-item active py-4 px-3">
                       
                       <p class="text-center font-weight-500"> 
-                        <em>"A small river named Duden flows by their place and supplies it with the necessary regelialia supplies it with the necessary regelialia" </em>
+                        <em>"Certification on HR Analytics program was a good eye opening for HR professionals to view all HR related data in depth. The future is going to be AI and ML, this HR Analytics program gives an insight. Recommend HR professionals to attend the program as part of Skill Enhancement" </em>
                       </p>
                        
                       <div class="d-flex testi justify-content-center">
                         <div class=" px-2">
-                          <img alt="image" src="<?php echo get_template_directory_uri(); ?> ./assets/images/testimonial/monica.jpg">
+                          <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/anand.jpg">
                         </div>
                         <div class="px-2 ">
-                          <span class="pt-2 brand_color"> Monica </span>
-                          <span> Ca </span>  
+                          <span class="pt-2 brand_color"> Anand Jeyagurunathan </span>
+                          <span> HR Manager - TPM India Pvt Ltd</span>  
                         </div>
                       </div>
 
                     </div>
 
-                    <div class="carousel-item py-4 px-5">
+                    <!-- <div class="carousel-item py-4 px-5">
                       
                       <p class="text-center font-weight-500"> 
                         <em>"A small river named Duden flows by their place and supplies it with the necessary regelialia supplies it with the necessary regelialia" </em>
@@ -169,7 +169,7 @@
                        
                       <div class="d-flex testi justify-content-center">
                         <div class=" px-2">
-                          <img alt="image" src="<?php echo get_template_directory_uri(); ?> ./assets/images/testimonial/monica.jpg">
+                          <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/monica.jpg">
                         </div>
                         <div class="px-2 ">
                           <span class="pt-2 brand_color"> Testi Name  </span>
@@ -177,7 +177,7 @@
                         </div>
                       </div>
 
-                    </div>
+                    </div> -->
 
 
                     <!-- <div class="carousel-item  py-3 px-3">
@@ -204,14 +204,14 @@
 
 
                   <!-- Open Corousel Button -->
-                  <a class="carousel-control-prev " href="#carousel_example" role="button" data-slide="prev">
+                  <!-- <a class="carousel-control-prev " href="#carousel_example" role="button" data-slide="prev">
                     <span><i class="fa fa-chevron-left brand_color"></i>  </span>
                     <span class="sr-only ">Previous</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel_example" role="button" data-slide="next">
                     <span><i class="fa fa-chevron-right brand_color"></i>  </span>
                     <span class="sr-only">Next</span>
-                  </a>
+                  </a> -->
                   <!-- Close Corousel Button -->
 
                 </div><!-- Close Carousel Example -->
@@ -239,7 +239,7 @@
             <div class="d-flex px-3 ">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?> ./assets/images/icon/predictive.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/predictive.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -252,7 +252,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow  rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?> ./assets/images/icon/data.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/data.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -266,7 +266,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/dashboard.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/dashboard.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -279,7 +279,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/roi.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/roi.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -291,7 +291,7 @@
           </div> 
 
           <div class="col-md-6 justify-content-center">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/learning_outcome.png" class="img-fluid" alt="image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning_outcome.png" class="img-fluid" alt="image">
           </div> 
 
         </div> <!-- Close the Row 1 -->
@@ -300,7 +300,7 @@
         <div class="row  align-items-center padding-bottom-30 mt-5">
          
           <div class="col-md-6">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/learning.png" class="img-fluid" alt="image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning.png" class="img-fluid" alt="image">
           </div>  
 
           <div class="col-md-6 learning-outcome">
@@ -309,7 +309,7 @@
             <div class="d-flex px-3 ">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/workload.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/workload.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -322,7 +322,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow  rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/description.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/description.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -336,7 +336,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/appreciation.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/appreciation.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -349,7 +349,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/icon/people.png">
+                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/people.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -373,32 +373,32 @@
     <section class="section bg-secondary mt-100"> 
        <!-- Client Logo here  -->
         <div class="container">
-          <h3 class=" text-center">Client Logo</h3>
+          <h3 class=" text-center">Our Trusted Client </h3>
             <div class="text-center "> 
               <div class="row justify-content-center pt-4">
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/walmart.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ola.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/tessolve.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/fidelity.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/freudenburg.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                    <img alt="image" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo/zendesk.png" class="img-fluid">
+                    <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/capgemini.png" class="img-fluid">
                 </div>
 
               </div> <!-- Close Row-->
@@ -415,7 +415,6 @@
 
 
    
-
     <!-- Open call to action  -->
     <section class="section section-lg"  style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,96,161,1) 0%, rgba(26,126,146,1) 100%);">
       <div class="container">
@@ -424,9 +423,8 @@
             <h3 class="display-3 text-white">Learn how Analytics helps Human Resource</h3>
             <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta</p>
             <div class="btn-wrapper">
-              <a href="#" class="btn brand-second-color pl-md pr-md text-white"> Register Now </a>
+              <a href="#form" class="btn brand-second-color pl-md pr-md text-white"> Register Now </a>
             </div>
-            
           </div>
         </div>
       </div>
