@@ -244,7 +244,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color">Predictive Analysis </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <p class="font-weight-500"> Use a variety of organizational data to predict the future through real world business cases.  </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -257,7 +257,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color">Business Data </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <p class="font-weight-500"> Understand the techniques to choose, organize and use appropriate data for resolving a particular business problem.  </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -271,7 +271,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color">HR Dashboard Design</h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <p class="font-weight-500"> Design dashboards that can draw attention while also providing all necessary information in the best possible way.  </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -284,7 +284,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color"> ROI </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <p class="font-weight-500"> Understand how to calculate the ROI for every activity conducted within the organization.  </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -313,8 +313,8 @@
                 </div>
               </div>
               <div class="pl-4">
-                <h5 class="brand_color">Wordload Analysis </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <h5 class="brand_color">Workload Analysis </h5>
+                <p class="font-weight-500"> Analyze and match the manpower requirement with the amount of work to best meet the current and future needs of the organization.  </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -327,7 +327,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color">Descriptive Analysis </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis </p>
+                <p class="font-weight-500"> Collect data to describe its meaning and the relationship with other pieces of data found in the organization. </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -341,7 +341,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color">Appreciation Awareness</h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt perspiciatis  </p>
+                <p class="font-weight-500"> Appreciate all pieces of data within an organization, and pick the appropriate one to deal with various situations. </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
@@ -354,7 +354,7 @@
               </div>
               <div class="pl-4">
                 <h5 class="brand_color"> People Analytics </h5>
-                <p class="font-weight-500"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, error quod ut nesciunt </p>
+                <p class="font-weight-500"> Use analytics for diagnosing and resolving a variety of people-related problems in the organization. </p>
               </div>
             </div> <!-- Open the Learning Outcome 1 close -->
 
