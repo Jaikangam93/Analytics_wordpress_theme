@@ -3,27 +3,16 @@
 <main>
 
     <!-- Main here Section  -->
-    <section class="section section-lg section-shaped " id="form" >
+    <section class="section section-lg gradient-overlay" id="form" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/background/new.jpg');">
       
-      <!-- Header Background Shape -->
-      <div class="shape shape-style-1 shape-default ">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div> <!-- Close header background shape -->
-
+      
       <div class="container">
         <div class="row  justify-content-between align-items-center" >
           
           <!-- Open col - 7 -->
           <div class="col-lg-7 mt--50">
             <h3 class="display-2 brand_color">HR Analytics </h3>
-            <p class="lead brand_color weight-500 ">CHRMP Certification in HR Analytics will help you explore the state-of-the-art analytics techniques used to drive HR initiatives such as talent acquisition, performance evaluation, talent development, building leadership, hiring and promotion, job design, compensation, and collaboration.</p>
+            <p class="lead brand_color weight-500">CHRMP Certification in HR Analytics will help you explore the state-of-the-art analytics techniques used to drive HR initiatives such as talent acquisition, performance evaluation, talent development, building leadership, hiring and promotion, job design, compensation, and collaboration.</p>
           </div><!-- Close col -7  -->
 
           <!-- Open col -5  -->
@@ -151,7 +140,7 @@
                        
                       <div class="d-flex testi justify-content-center">
                         <div class=" px-2">
-                          <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/anand.jpg">
+                          <img alt="Anand Jeyagurunathan " src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/anan.jpg">
                         </div>
                         <div class="px-2 ">
                           <span class="pt-2 brand_color"> Anand Jeyagurunathan </span>
@@ -239,7 +228,7 @@
             <div class="d-flex px-3 ">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/predictive.png">
+                  <img alt="Predictive" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/predictive.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -252,7 +241,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow  rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/data.png">
+                  <img alt="Data" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/data.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -266,7 +255,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/dashboard.png">
+                  <img alt="Dashboard" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/dashboard.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -279,7 +268,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/roi.png">
+                  <img alt="ROI" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/roi.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -291,7 +280,7 @@
           </div> 
 
           <div class="col-md-6 justify-content-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning_outcome.png" class="img-fluid" alt="image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning_outcome.png" class="img-fluid" alt="HR Learning Learning Outcome ">
           </div> 
 
         </div> <!-- Close the Row 1 -->
@@ -300,7 +289,7 @@
         <div class="row  align-items-center padding-bottom-30 mt-5">
          
           <div class="col-md-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning.png" class="img-fluid" alt="image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/learning.png" class="img-fluid" alt="Learning HR Analytics ">
           </div>  
 
           <div class="col-md-6 learning-outcome">
@@ -309,7 +298,7 @@
             <div class="d-flex px-3 ">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/workload.png">
+                  <img alt="Workload " src="<?php echo get_template_directory_uri();?>/assets/images/icon/workload.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -322,7 +311,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow  rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/description.png">
+                  <img alt=" Description " src="<?php echo get_template_directory_uri();?>/assets/images/icon/description.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -336,7 +325,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/appreciation.png">
+                  <img alt="Appreciation" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/appreciation.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -349,7 +338,7 @@
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-md icon-shape bg-brand-color shadow rounded-circle text-primary">
-                  <img alt="image" src="<?php echo get_template_directory_uri();?>/assets/images/icon/people.png">
+                  <img alt="People Analytics " src="<?php echo get_template_directory_uri();?>/assets/images/icon/people.png">
                 </div>
               </div>
               <div class="pl-4">
@@ -378,27 +367,27 @@
               <div class="row justify-content-center pt-4">
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/walmart.png" class="img-fluid">
+                  <img alt="Walmart" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/walmart.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ola.png" class="img-fluid">
+                  <img alt="ola" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ola.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/tessolve.png" class="img-fluid">
+                  <img alt="Tessolve" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/tessolve.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/fidelity.png" class="img-fluid">
+                  <img alt="Fidelity" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/fidelity.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                  <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/freudenburg.png" class="img-fluid">
+                  <img alt="Freudenburg" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/freudenburg.png" class="img-fluid">
                 </div>
 
                 <div class="col-lg-2 col-4">
-                    <img alt="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/capgemini.png" class="img-fluid">
+                    <img alt="Capgemini" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/capgemini.png" class="img-fluid">
                 </div>
 
               </div> <!-- Close Row-->

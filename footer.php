@@ -12,7 +12,7 @@
         <div class="col-md-3 col-sm-3">
           <div class="footer-logo">
             <!-- Logo here <img alt="image" src="./assets/img/brand/white.png"> -->
-            <img alt="Chrmp Footer Logo" src="<?php echo get_template_directory_uri();?>/assets/img/brand/chrmp_original.png">
+            <img alt="Chrmp Footer Logo" src="<?php echo get_template_directory_uri();?>/assets/images/brand/chrmp_original.png">
           </div>
         </div>
         <!-- Close First Column -->
