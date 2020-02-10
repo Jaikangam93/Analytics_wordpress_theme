@@ -18,7 +18,7 @@
   <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
       <div class="container">
-          <a class="navbar-brand" href="" onclick="return false" >
+          <a class="navbar-brand" href="<?php echo get_home_url();?>">
             <img alt="image" src=" <?php echo get_template_directory_uri(); ?>/assets/img/brand/chrmp_original.png">
           </a>
       </div>
