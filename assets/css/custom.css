@@ -88,3 +88,30 @@ opacity: 0.9;
 .brand-second-color{
     background-color:#8dc162;
 }
+
+.main{
+    padding-top:100px;
+}
+/*  Style for Post */
+.post{
+
+}
+.post__content h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.post__content h1, a{
+    color: #2960A1;
+}
+.post__meta {
+    display: flex;
+    justify-content: flex-start;
+}
+.post__meta span{
+    padding-right: 15px;
+}
+.post__image img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
