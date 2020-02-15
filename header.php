@@ -10,6 +10,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   
   <?php wp_head(); ?> 
+  <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LcTHtkUAAAAAFWnXseJU_0kC87P9J3WEuo11txM'
+        });
+      };
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -19,7 +26,7 @@
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
       <div class="container">
           <a class="navbar-brand" href="<?php echo get_home_url();?>">
-            <img alt="image" src=" <?php echo get_template_directory_uri(); ?>/assets/images/brand/chrmp_original.png">
+            <img alt="image" src=" <?php echo get_template_directory_uri();?>/assets/images/brand/chrmp_original.png">
           </a>
       </div>
     </nav>

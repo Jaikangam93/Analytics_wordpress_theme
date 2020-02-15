@@ -11,12 +11,18 @@
           
           <!-- Open col - 7 -->
           <div class="col-lg-7 mt--50">
+                
             <h3 class="display-2 brand_color">HR Analytics </h3>
             <p class="lead brand_color weight-500">CHRMP Certification in HR Analytics will help you explore the state-of-the-art analytics techniques used to drive HR initiatives such as talent acquisition, performance evaluation, talent development, building leadership, hiring and promotion, job design, compensation, and collaboration.</p>
+        
           </div><!-- Close col -7  -->
 
           <!-- Open col -5  -->
           <div class="col-lg-5 mb-lg-auto  mb--200" style="z-index:1000;">
+              <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+
+
+
               <div class="card bg-secondary border-0">
                 <!-- Form header  -->
                 <div class="card-header form-header">
@@ -24,14 +30,19 @@
                 </div> <!-- Close Form header  -->
                 
                 <div class="card-body px-lg-5 py-lg-5">
-                  <form >
+                  <form action='https://forms.zohopublic.com/ripples/form/HRAnalytics1/formperma/i2axnzlOPSpdgFXmaHxmd-BKA8fyf4J1_3N9r2tjLas/htmlRecords/submit' onsubmit="return submitUserForm();" name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                    <input type="hidden" name="zf_referrer_name" value="">
+                    <input type="hidden" name="zf_redirect_url" value="">
+                    <input type="hidden" name="zc_gad" value="">
+
                     <!-- Open First name  -->
                     <div class="form-group mb-3">
                       <div class="input-group input-group-alternative">
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-single-02"></i></span>
                         </div>
-                        <input class="form-control" placeholder="First Name" type="text">
+                        <input class="form-control" type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First Name" required >
+                        
                       </div>
                     </div> 
                     <!-- Close First name  -->
@@ -42,7 +53,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-single-02"></i></span>
                         </div>
-                        <input class="form-control" placeholder="Last Name" type="text">
+                        <input class="form-control" placeholder="Last Name" type="text" maxlength="255" name="Name_Last" fieldType=7 required >
                       </div>
                     </div>
                     <!-- Close Last name  -->
@@ -53,7 +64,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                         </div>
-                        <input class="form-control" placeholder="Email" type="email">
+                        <input class="form-control" placeholder="Email" type="text" maxlength="255" name="Email" value="" fieldType=9 required >
                       </div>
                     </div>
                     <!-- Close Email -->
@@ -65,7 +76,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-mobile-button"></i></span>
                         </div>
-                        <input class="form-control" placeholder="Contact No" type="text">
+                        <input class="form-control" placeholder="Contact No" type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" required >
                       </div>
                     </div>
                     <!-- Close Contact No   -->
@@ -77,7 +88,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-square-pin"></i></span>
                         </div>
-                        <input class="form-control" placeholder="Location" type="text">
+                        <input  class="form-control" placeholder="Location" type="text" name="SingleLine" value="" fieldType=1 maxlength="255" required >
                       </div>
                     </div>
                     <!-- Close Location  -->
@@ -85,22 +96,25 @@
                     
 
                     <!-- Open Captcha  -->
-                    <div class="row my-4">
+                    <!-- <div class="row my-4">
                       <div class="col-12">
                         <div class="custom-control custom-control-alternative custom-checkbox">
                           <input class="custom-control-input" id="customCheckRegister" type="checkbox">
                           <label class="custom-control-label" for="customCheckRegister"><span>I agree with the <a href="#">Privacy Policy</a></span></label>
                         </div>
                       </div>
-                    </div>
-                    
+                    </div> -->
+                   
+                    <div class="g-recaptcha" data-sitekey="6LfUwNcUAAAAAKCR4Awo2gT6RIbP4kcs-H9To503" data-callback="verifyCaptcha"></div>
+                    <div id="g-recaptcha-error"></div>
                     <!-- Close Captcha  -->
 
                     <!-- Open Submit button -->
                     <div class="text-center ">
-                      <button type="button" class="btn text-white brand-second-color btn-block my-4"> Book My SEAT</button>
+                      <button type="submit" name="submit" class="btn text-white brand-second-color btn-block my-3"> Book My SEAT</button>
                     </div>
                     <!-- Close Submit button -->
+                    
 
                     <div class="form-submit-privacy"> <p> By submitting your info you agree to the chrmp Privacy & Terms </p> </div>
                   </form> <!--Close form -->
@@ -112,7 +126,7 @@
       </div> <!-- Close Container -->
       
     </section> <!-- Close the main hero section from here -->
-    
+
 
     <!-- Open the testiomonail Section -->
     <section> 
@@ -357,12 +371,11 @@
 
 
 
-
     <!--  Open Section Client Logo -->
     <section class="section bg-secondary mt-100"> 
        <!-- Client Logo here  -->
         <div class="container">
-          <h3 class=" text-center">Our Trusted Client </h3>
+          <h3 class=" text-center">Our Trusted Clients </h3>
             <div class="text-center "> 
               <div class="row justify-content-center pt-4">
 
@@ -413,6 +426,7 @@
             <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta</p>
             <div class="btn-wrapper">
               <a href="#form" class="btn brand-second-color pl-md pr-md text-white"> Register Now </a>
+              
             </div>
           </div>
         </div>
